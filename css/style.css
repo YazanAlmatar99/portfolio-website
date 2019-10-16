@@ -4,18 +4,41 @@ body {
   
 .my-image > img{
     margin: auto;
+} 
+.languages-section {
+    margin-top: 60px;
+    width:60%;
+    margin:auto;
+    margin-top: 60px;
 }
+.frameworks-section {
+    width:90%;
+    margin:auto;
+    margin-top: 60px;
 
-.languages-section div svg {
+}
+.tools-section {
+    width:60%;
+    margin:auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.center-text {
+    text-align: center;
+}
+.languages-section div img {
     width:70px;
+    min-width: 70px;
     margin:0 30px;
 }
-.frameworks-section div svg {
+.frameworks-section div img {
     width:70px;
+    min-width: 70px;
     margin:0 30px;
 }
-.tools-section div svg {
+.tools-section div img {
     width:70px;
+    min-width: 70px;
     margin:0 30px;
 }
 .languages-icons-wrapper {
@@ -32,5 +55,9 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: row;
+}
+
+.row {
+    justify-content: center;
 }
 
