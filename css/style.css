@@ -1,0 +1,36 @@
+body {
+    background: repeat url("../assets/background.jpg");
+  }
+  
+.my-image > img{
+    margin: auto;
+}
+
+.languages-section div svg {
+    width:70px;
+    margin:0 30px;
+}
+.frameworks-section div svg {
+    width:70px;
+    margin:0 30px;
+}
+.tools-section div svg {
+    width:10%;
+    margin:0 30px;
+}
+.languages-icons-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.frameworks-icons-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.tools-icons-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
