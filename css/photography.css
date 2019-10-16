@@ -1,0 +1,22 @@
+body {
+    background: repeat url("../assets/photography-background.jpg");
+  }
+  .ui.piled.segment {
+      width:90%;
+      margin:auto;
+      margin-top: 100px;
+  }
+  .pictures-section {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .row {
+      margin-top: 100px;
+  }
+  @media only screen and (max-width: 700px) {
+    .img-thumbnail a img {
+    margin-bottom: 80px; 
+    }
+  }
