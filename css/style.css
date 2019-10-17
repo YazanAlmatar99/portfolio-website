@@ -1,7 +1,11 @@
 body {
     background: repeat url("../assets/background.jpg");
   }
-  
+  body > .jumbotron {
+    margin-top: 10px;
+    box-shadow: 3px 0px 50px;
+
+  }
 .my-image > img{
     margin: auto;
 } 
@@ -83,5 +87,11 @@ footer{
     .contact-section {
         width:100%;
     }
-  }
+}
+.map {
+    display:flex;
+    justify-content: center;
+}
+
+
 
