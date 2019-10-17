@@ -1,14 +1,21 @@
-// console.log("this is the photography.html page");
-// $(".image-1").slideDown("slow", function() {
-//   $(".image-2").slideDown();
-// });
 
+//dynamically get pictures number
+var imagesNumber = $('.col-md-4').length;
 function slideInImages(className) {
   $("." + className).slideDown("slow");
 }
-for (i = 0; i < 6; i++) {
-    var temp = "image-" + (i + 1)
-    slideInImages(temp)
-  setTimeout(slideInImages(temp),function(){
-  },1000)
+
+console.log(imagesNumber)
+var i = 0;
+function startSlidingInImages() {
+  setTimeout(function() {
+    var temp = "image-" + (i + 1);
+    slideInImages(temp);
+    i++;
+    if (i < imagesNumber) {
+      startSlidingInImages();
+    }
+  }, 500);
 }
+
+startSlidingInImages();
